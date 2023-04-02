@@ -1,6 +1,8 @@
 package bus
 
 import (
+	"context"
+
 	"google.golang.org/protobuf/proto"
 )
 
@@ -18,7 +20,7 @@ type Event[Payload proto.Message] struct {
 }
 
 type Publisher[Payload proto.Message] interface {
-	Publish(events []Event[Payload]) error
+	Publish(ctx context.Context, events []Event[Payload]) error
 	Stop() error
 }
 
