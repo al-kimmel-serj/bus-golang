@@ -1,5 +1,7 @@
 # Event bus golang implementation
 
+[![GoDoc](https://pkg.go.dev/badge/al-kimmel-serj/bus-golang)](https://pkg.go.dev/github.com/al-kimmel-serj/bus-golang)
+
 Golang event bus library with service discovery and protobuf support. This repository provides the basic types required to implement event bus pattern.
 
 ## Publisher implementations
