@@ -1,6 +1,6 @@
 # Event bus golang implementation
 
-Provides the basic types required to implement event bus pattern.
+Golang event bus library with service discovery and protobuf support. This repository provides the basic types required to implement event bus pattern.
 
 ## Publisher implementations
 
